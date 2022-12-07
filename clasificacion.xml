@@ -1,0 +1,19 @@
+<!DOCTYPE classificacion [
+<!ELEMENT mundial (mundial*)>
+<!ELEMENT mundial (pais+)>
+<!ELEMENT mundial pais CDATA #REQUIRED>
+<!ELEMENT pais (nombre, region?, division?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT desclasificacion (#PCDATA)>
+]
+<mundial>
+    <mundial tipo="mundial">
+        <pais>
+            <nombre>España</nombre>
+            <desclasificacion>Octavos</desclasificacion>
+        </pais>
+        <pais>
+            <nombre>Alemania</nombre>
+            <desclasificacion>Fase de grupos</desclasificacion>
+        </pais>
+    </mundial>

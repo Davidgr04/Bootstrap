@@ -1,0 +1,41 @@
+/* Show it is fixed to the top */
+
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+
+img {
+    align-items: center;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #e9b57c;
+}
+
+.nav {
+    color: black;
+}
+
+.columna_dreta {
+    margin-top: 20px;
+}
+
+.columna_esquerra {
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tipus {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

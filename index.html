@@ -2,24 +2,85 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./img/" type="image/x-icon">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="stylesheet" href="main.css" />
+
+    <title>Index_Bootstrap</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 </head>
 
 <body>
-    <div class="column-3 flex">
-        hola
+    <div class="container">
+        <div class="row navbar">
+            <div class="col-3">
+                <p><a href="index.html" class="nav">Pagina principal</a></p>
+            </div>
+            <div class="col-3">
+                <p><a href="historia.html" class="nav">Nuestra Historia</a></p>
+            </div>
+            <div class="col-3">
+                <p><a href="./d.html" class="nav">¿A que nos dedicamos?</a></p>
+            </div>
+            <div class="col-3">
+                <p><a href="ser.html" class="nav">¿Quienes somos?</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 columna_dreta">
+                <p>Para contactarnos, rellene el formulario</p>
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                        <li>
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="user_name">
+                        </li>
+                        <li>
+                            <label for="mail">Correo electronico:</label>
+                            <input type="email" id="mail" name="user_mail">
+                        </li>
+                        <li>
+                            <label for="Num">Nº Telefono</label>
+                            <input type="num" id="Telefono" name="user_Tel">
+                        </li>
+                        <li>
+                            <label for="msg">Mensaje:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            <div class="col-5">
+                <h1>Camisetas García</h1>
+                <p>Somos una empresa que recien a empezado en internet, ya teniamos nuestra propia tienda fisica en el centro de L'Hospitalet de Llobregat, con cuenta de instagram donde haciamos pedidos y demas, pero hemos decidido que para la comodida del
+                    uruario nos queremos dar a conocer aqui, en internet. Aqui os dejamos unas muestras</p>
+                <ul>
+                    <li><a href="camisetas.html">Camisetas de marcas</a></li>
+                    <li><a href="mundial.html">Especial Mundial</a></li>
+                    <li><a href="cinturon.html">Cinturones</a></li>
+                    <li><a href="pantalon.html">Pantalones</a></li>
+
+                </ul>
+                </p>
+            </div>
+            <div class="col-4 columna_esquerra">
+                <iframe id="Direcció_maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d464.85999984572715!2d2.1059405254578234!3d41.36083491097881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4990fd291514f%3A0x8519be357f747529!2sZeeman!5e0!3m2!1ses!2ses!4v1670441209292!5m2!1ses!2ses
+                    " width="400 " height="300 " style="border:0; " allowfullscreen=" " loading="lazy " referrerpolicy="no-referrer-when-downgrade "></iframe>
+
+                </iframe>
+            </div>
+        </div>
     </div>
-    <div class="column-3 flex">
-        adios
-    </div>
-    <div class="column-3 flex">
-        weno
-    </div>
-</body>
+    <footer class="bg-light text-center text-white">
+        <br><br><br><br><br><br><br><br>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+    </footer>
 
 </html>
